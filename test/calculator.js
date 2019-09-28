@@ -1,17 +1,34 @@
+const homepage = require('../pages/homepage.js')
+
 describe('demo calculator test', function () {
     it('addation test', function () {
         //open browser
-        browser.get('http://juliemr.github.io/protractor-demo/');
+        homepage.get('http://juliemr.github.io/protractor-demo/');
         //input first form
-        element(by.model('first')).sendKeys('12');
-        //test select option division
-        element(by.model('operator')).$('[value="DIVISION"]').click();
+        homepage.enterFirstNumber('2');
+        //select operator
+        homepage.clickOperatorAddition()
         //input second form
-        element(by.model('second')).sendKeys('6');
+        homepage.enterSecondNumber('6');
         //klik go
-        element(by.css('[ng-click="doAddition()"]')).click();
+        homepage.clickGo();
         //verify
-        element(by.cssContainingText('.ng-binding', '2'));
+        homepage.verifyResult('8');
+        browser.sleep(3000)
+    })
+    it('division test', function () {
+        //open browser
+        homepage.get('http://juliemr.github.io/protractor-demo/');
+        //input first form
+        homepage.enterFirstNumber('12');
+        //select operator
+        homepage.clickOperatorDivision();
+        //input second form
+        homepage.enterSecondNumber('6');
+        //klik go
+        homepage.clickGo();
+        //verify
+        homepage.verifyResult('2');
         browser.sleep(3000)
     })
 })
