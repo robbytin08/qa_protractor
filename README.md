@@ -16,6 +16,7 @@ Learning test automation for web angular js or angular
 - webdriver-manager update
 
 ## Git Clone
+- git clone https://github.com/robbytin08/qa_protractor.git
 
 ## Commadn For Run
 - protractor conf.js
