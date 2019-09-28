@@ -1,0 +1,11 @@
+{
+    "name": "qa-protractor",
+    "version": "1.0.0",
+    "description": "Learning UI automation test",
+    "main": "index.js",
+    "license": "ISC",
+    "author": "Robby",
+    "devDependencies": {
+        "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+    }
+}
