@@ -18,7 +18,7 @@ Learning test automation for web angular js or angular
 ## Git Clone
 - git clone https://github.com/robbytin08/qa_protractor.git
 
-## Commadn For Run
+## Command For Run
 - protractor conf.js
 
 ## Refence :
