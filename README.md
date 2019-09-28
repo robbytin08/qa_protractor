@@ -19,8 +19,10 @@ Learning test automation for web angular js or angular
 - git clone https://github.com/robbytin08/qa_protractor.git
 - npm install
 
-## Command For Run
-- protractor conf/conf.js
+## Command testing
+- npm run test-ui (for running testi)
+- npm run reports (for see report testing)
+- npm run show-bug (for see capture if any bug)
 
 ## Refence :
 https://www.protractortest.org/#/
