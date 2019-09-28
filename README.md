@@ -20,7 +20,7 @@ Learning test automation for web angular js or angular
 - npm install
 
 ## Command testing
-- npm run test-ui (for running testi)
+- npm run test-ui ### (for running testi) ###
 - npm run reports (for see report testing)
 - npm run show-bug (for see capture if any bug)
 
