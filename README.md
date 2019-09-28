@@ -2,23 +2,23 @@
 
 Learning test automation for web angular js or angular
 
-## prerequisite:
-- Install nodeJS
-https://nodejs.org/en/download/
-node -v
-npm -v
 
-- Install Protractor
-npm install -g protractor
-protractor --version
+## Install nodeJS
+- https://nodejs.org/en/download/
+- node -v
+- npm -v
 
-- Update webdriver
-webdriver-manager update
+## Install Protractor
+- npm install -g protractor
+- protractor --version
 
-- Git Clone
+## Update webdriver
+- webdriver-manager update
 
-Commadn For Run
-protractor conf.js
+## Git Clone
 
-Refence :
+## Commadn For Run
+- protractor conf.js
+
+## Refence :
 https://www.protractortest.org/#/
